@@ -8,10 +8,12 @@ import java.util.ResourceBundle;
 import java.util.Set;
 
 import db.DbException;
+
 import gui.listeners.DataChangeListener;
 import gui.util.Alerts;
 import gui.util.Constraints;
 import gui.util.Utils;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -19,6 +21,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+
 import model.entities.Department;
 import model.exceptions.ValidationException;
 import model.services.DepartmentService;
